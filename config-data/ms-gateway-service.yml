@@ -12,8 +12,6 @@ eureka:
 
 spring:
   cloud:
-
-
     gateway:
       discovery:
         locator:
