@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2cd74d5-c889-4830-aecc-8ecd84b494f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../config-data/ms-gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/ms-gateway-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-cliente-server/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-cliente-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ms-cliente-server/mvnw" beforeDir="false" />
@@ -97,7 +98,7 @@
       <updated>1725293581611</updated>
       <workItem from="1725293582638" duration="1734000" />
       <workItem from="1725295335051" duration="1034000" />
-      <workItem from="1725296415634" duration="61000" />
+      <workItem from="1725296415634" duration="361000" />
     </task>
     <servers />
   </component>
