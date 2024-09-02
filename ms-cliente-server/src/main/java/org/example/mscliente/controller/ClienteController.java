@@ -30,7 +30,7 @@ public class ClienteController {
         return ResponseEntity.ok(clienteService.buscarClientePorId(id));
     }
 
-    @GetMapping("/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Cliente> editarClienteResponseEntity(@PathVariable(required = true) Integer id, @RequestBody Cliente cliente) {
         cliente.setId(id);
         return ResponseEntity.ok(clienteService.editarCliente(cliente));
