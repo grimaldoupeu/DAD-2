@@ -1,33 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0849c61f-10a0-413b-b4a8-df04b970af96" name="Changes" comment="" />
+    <list default="true" id="d2cd74d5-c889-4830-aecc-8ecd84b494f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/src/main/java/org/example/mscliente/MsClienteApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/src/main/java/org/example/mscliente/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/src/main/java/org/example/mscliente/entity/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/src/main/java/org/example/mscliente/repository/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/src/main/java/org/example/mscliente/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/src/main/java/org/example/mscliente/service/impl/ClienteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms-cliente-server/src/test/java/org/example/mscliente/MsClienteApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
-  <component name="ProjectId" id="2lWQopOAjt8CtLmLJa3R3zV5w7V" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2lWQvLYYlGeABbkm1XBHKQ1Mq25" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.MsClienteApplication.executor": "Run",
     "git-widget-placeholder": "config-server",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Nuevo 1/DAD-2/ms-cliente-server",
+    "last_opened_file_path": "D:/Nuevo 1/DAD-2/ms-cliente",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MsClienteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-cliente-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.mscliente.MsClienteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -39,12 +90,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0849c61f-10a0-413b-b4a8-df04b970af96" name="Changes" comment="" />
-      <created>1725293530368</created>
+      <changelist id="d2cd74d5-c889-4830-aecc-8ecd84b494f8" name="Changes" comment="" />
+      <created>1725293581611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725293530368</updated>
-      <workItem from="1725293531432" duration="54000" />
+      <updated>1725293581611</updated>
+      <workItem from="1725293582638" duration="1734000" />
+      <workItem from="1725295335051" duration="1034000" />
+      <workItem from="1725296415634" duration="61000" />
     </task>
     <servers />
   </component>
