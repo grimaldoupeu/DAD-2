@@ -5,43 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2cd74d5-c889-4830-aecc-8ecd84b494f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ms-catalogo/src/main/java/com/example/mscatalogo/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-pedido/src/main/java/org/example/mspedido/dto/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-pedido/src/main/java/org/example/mspedido/dto/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-pedido/src/main/java/org/example/mspedido/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-pedido/src/main/java/org/example/mspedido/feign/ClienteFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ms-pedido/src/main/java/org/example/mspedido/feign/ProductFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/src/main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled1/untitled1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled2/untitled2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../untitled3/untitled3.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +90,7 @@
       <workItem from="1725293582638" duration="1734000" />
       <workItem from="1725295335051" duration="1034000" />
       <workItem from="1725296415634" duration="361000" />
-      <workItem from="1725887540514" duration="977000" />
+      <workItem from="1725887540514" duration="1705000" />
     </task>
     <servers />
   </component>
