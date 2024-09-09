@@ -11,34 +11,34 @@ import java.util.List;
 @RequestMapping("/category")
 public class CategoryController {
     @Autowired
-    private CategoryService CategoryService;
+    private CategoryService categoryService;
 
     @GetMapping
     public ResponseEntity<List<Category>> listar() {
-        return ResponseEntity.ok(CategoryService.listar());
+        return ResponseEntity.ok(categoryService.listar());
     }
 
     @PostMapping
     public ResponseEntity<Category> guardar(@RequestBody Category Category) {
-        return ResponseEntity.ok(CategoryService.guardar(Category));
+        return ResponseEntity.ok(categoryService.guardar(Category));
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Category> buscarPorId(@PathVariable(required = true) Integer id) {
-        return ResponseEntity.ok(CategoryService.buscarPorId(id));
+        return ResponseEntity.ok(categoryService.buscarPorId(id));
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<Category> editar(@PathVariable(required = true) Integer id,
                                             @RequestBody Category Category) {
         Category.setId(id);
-        return ResponseEntity.ok(CategoryService.editar(Category));
+        return ResponseEntity.ok(categoryService.editar(Category));
 
     }
 
     @DeleteMapping("/{id}")
     public String eliminar(@PathVariable(required = true) Integer id) {
-        CategoryService.eliminar(id);
+        categoryService.eliminar(id);
         return "Eliminacion correcta";
     }
 
