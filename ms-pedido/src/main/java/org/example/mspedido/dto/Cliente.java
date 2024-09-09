@@ -1,5 +1,8 @@
 package org.example.mspedido.dto;
 
+import lombok.Data;
+
+@Data
 public class Cliente {
 
     private int id;
