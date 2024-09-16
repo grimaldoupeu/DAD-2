@@ -1,6 +1,7 @@
 server:
   port: 8085
-eeureka:
+
+eureka:
   client:
     serviceUrl:
       #defaultZone: http://localhost:8090/eureka
