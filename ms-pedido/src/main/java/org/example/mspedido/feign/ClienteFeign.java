@@ -16,7 +16,7 @@ public interface ClienteFeign {
 
     public ResponseEntity<Cliente> getById(@PathVariable Integer id);
 
-    default ResponseEntity<Cliente> clientListById(Integer id, Exception e) {
+    default ResponseEntity<Cliente> clientListById(Integer id) {
         return ResponseEntity.ok(new Cliente());
     }
 }

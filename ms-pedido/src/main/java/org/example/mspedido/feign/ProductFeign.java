@@ -13,7 +13,7 @@ public interface ProductFeign {
     @GetMapping("/{id}")
     @CircuitBreaker(name = "productListByIdCB", fallbackMethod = "productListById")
     public ResponseEntity<Product> getById(@PathVariable Integer id);
-    default ResponseEntity<Product> productListById(Integer id, Exception e) {
+    default ResponseEntity<Product> productListById(Integer id) {
         return ResponseEntity.ok(new Product());
     }
 }

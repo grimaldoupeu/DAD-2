@@ -39,9 +39,9 @@ public class PedidoServiceImpl implements PedidoService {
     public Pedido buscarPorId(Integer id) {
         pedidoRepository.findById(id).get();
         Pedido pedido = pedidoRepository.findById(id).get();
-        Cliente cliente = clienteFeign.listarClienteDtoPorId(pedido.getClienteId()).getBody();
+        Cliente cliente = clienteFeign.clientListById(pedido.getClienteId()).getBody();
         List<PedidoDetalle> pedidoDetalles = pedido.getDetalle().stream().map(pedidoDetalle -> {
-            Product producto = productoFeign.listarProductoDtoPorId(pedidoDetalle.getProductoId()).getBody();
+            Product producto = productoFeign.productListById(pedidoDetalle.getProductoId()).getBody();
             pedidoDetalle.setProducto(producto);
             return pedidoDetalle;
         }).collect(Collectors.toList());
