@@ -72,6 +72,10 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.6</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -107,7 +111,10 @@
             <version>4.0.4</version>
         </dependency>
 
+
+
     </dependencies>
+
 
     <build>
         <plugins>
