@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2cd74d5-c889-4830-aecc-8ecd84b494f8" name="Changes" comment="" />
+    <list default="true" id="d2cd74d5-c889-4830-aecc-8ecd84b494f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +57,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="MsClienteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" nameIsGenerated="true">
       <module name="ms-cliente-server" />
@@ -85,7 +90,7 @@
       <workItem from="1725296415634" duration="361000" />
       <workItem from="1725887540514" duration="4298000" />
       <workItem from="1726238086195" duration="7000" />
-      <workItem from="1726492168011" duration="2251000" />
+      <workItem from="1726492168011" duration="3678000" />
     </task>
     <servers />
   </component>
