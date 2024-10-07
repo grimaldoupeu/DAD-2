@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2cd74d5-c889-4830-aecc-8ecd84b494f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../config-data/ms-gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/ms-gateway-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,8 @@
       <workItem from="1725887540514" duration="4298000" />
       <workItem from="1726238086195" duration="7000" />
       <workItem from="1726492168011" duration="3678000" />
-      <workItem from="1727702726751" duration="3775000" />
+      <workItem from="1727702726751" duration="4490000" />
+      <workItem from="1728305917717" duration="633000" />
     </task>
     <servers />
   </component>
