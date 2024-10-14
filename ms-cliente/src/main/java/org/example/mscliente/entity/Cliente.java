@@ -11,7 +11,7 @@ import lombok.Data;
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
     private String nombre;
     private String apellido_paterno;
     private String apellido_materno;
