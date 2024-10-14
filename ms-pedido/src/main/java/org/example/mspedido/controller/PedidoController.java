@@ -30,17 +30,12 @@ public class PedidoController {
         return ResponseEntity.ok(pedidoService.listar());
     }
 
-    @PostMapping
-    public ResponseEntity<Pedido> guardar(@RequestBody Pedido Pedido) {
-        return ResponseEntity.ok(pedidoService.guardar(Pedido));
-    }
-
     @GetMapping("/{id}")
     public ResponseEntity<Pedido> buscarPorId(@PathVariable(required = true) Integer id) {
         return ResponseEntity.ok(pedidoService.buscarPorId(id));
     }
     @PostMapping
-    public ResponseEntity<?> create(@RequestBody Pedido pedido){
+    public ResponseEntity<?> guardar(@RequestBody Pedido pedido){
        Cliente cliente = clienteFeign.getById(pedido.getClienteId()).getBody();
 
         if (cliente == null || cliente.getId() == null) {
