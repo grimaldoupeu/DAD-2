@@ -27,7 +27,7 @@ public class ClienteController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Cliente> buscarClientePorIdResponseEntity(@PathVariable(required = true) Integer id) {
-        return ResponseEntity.ok(clienteService.buscarClientePorId(id));
+        return ResponseEntity.ok(clienteService.buscarClientePorId(id).get());
     }
 
     @PutMapping("/{id}")

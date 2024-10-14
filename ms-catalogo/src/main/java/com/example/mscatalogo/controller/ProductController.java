@@ -25,7 +25,7 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Product> buscarPorId(@PathVariable(required = true) Integer id) {
-        return ResponseEntity.ok(productService.buscarPorId(id));
+        return ResponseEntity.ok(productService.buscarPorId(id).get());
     }
 
     @PutMapping("/{id}")
